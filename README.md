@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# NFT Art Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This is NFT Marketplace project. I created this project using OpenZeppelin. It allows to owner to mint and burn NFTs. Also there are functions as to buy, sell and resell the NFTs. If the buyer of NFT decides to resell it, then comission goes to creator of NFT. Creator of NFT sets the comission amount. Also these NFTs with pictures can be seen in OpenSea as a collection.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
